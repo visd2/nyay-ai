@@ -1,0 +1,33 @@
+दिनांक: [DATE]
+
+सेवा में,
+[AUTHORITY_NAME]
+[AUTHORITY_DESIGNATION]
+[OFFICE_ADDRESS]
+
+विषय: [SUBJECT]
+
+महोदय/महोदया,
+
+सविनय निवेदन है कि मैं [COMPLAINANT_NAME], निवासी [COMPLAINANT_ADDRESS] आपके समक्ष निम्नलिखित शिकायत प्रस्तुत करना चाहता/चाहती हूँ:
+
+घटना का विवरण:
+[DETAILED_DESCRIPTION]
+
+दिनांक/समय: [DATE_TIME_OF_INCIDENT]
+स्थान: [LOCATION]
+
+आरोपी/जिम्मेदार पक्ष: [RESPONDENT_DETAILS]
+
+मेरी माँग:
+[DEMAND/RELIEF_SOUGHT]
+
+अतः आपसे निवेदन है कि मेरी शिकायत पर उचित कार्यवाही करते हुए न्याय दिलाने की कृपा करें।
+
+संलग्न: [ATTACHMENTS LIST]
+
+भवदीय,
+[COMPLAINANT_NAME]
+हस्ताक्षर: ___________
+मोबाइल: [MOBILE]
+ईमेल: [EMAIL]

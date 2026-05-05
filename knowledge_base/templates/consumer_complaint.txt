@@ -1,0 +1,45 @@
+सेवा में,
+अध्यक्ष महोदय
+जिला उपभोक्ता विवाद प्रतितोषण आयोग
+[DISTRICT], [STATE]
+
+विषय: उपभोक्ता परिवाद – Consumer Protection Act 2019 की धारा 35 के अंतर्गत
+
+परिवादी का नाम व पता:
+[COMPLAINANT_NAME]
+[COMPLAINANT_ADDRESS]
+मोबाइल: [MOBILE]
+
+विपक्षी (Company/Seller):
+[COMPANY_NAME]
+[COMPANY_ADDRESS]
+
+परिवाद का विवरण:
+
+1. परिवादी ने दिनांक [PURCHASE_DATE] को विपक्षी से [PRODUCT_SERVICE] क्रय/उपभोग किया जिसका मूल्य [AMOUNT] रुपये था। (बिल/रसीद संख्या: [BILL_NUMBER])
+
+2. उक्त [product/service] में निम्नलिखित खामी/कमी पाई गई:
+   [DEFECT_DESCRIPTION]
+
+3. दिनांक [COMPLAINT_DATE] को परिवादी ने विपक्षी से शिकायत की, परंतु [no action was taken / unsatisfactory response]।
+
+4. विपक्षी के उपरोक्त कृत्य से परिवादी को [LOSS_DESCRIPTION] का नुकसान हुआ, जो Consumer Protection Act 2019 की धारा 2(11) के अंतर्गत "unfair trade practice" एवं "deficiency in service" की श्रेणी में आता है।
+
+प्रार्थना:
+अतः आपसे प्रार्थना है कि विपक्षी को निर्देश दिया जाए:
+(क) [AMOUNT] रुपये की वापसी/प्रतिस्थापन
+(ख) मानसिक उत्पीड़न हेतु [COMPENSATION] रुपये की क्षतिपूर्ति
+(ग) वाद व्यय
+
+संलग्न दस्तावेज:
+□ खरीद की रसीद / बिल
+□ Product की photographs (यदि defect हो)
+□ Complaint correspondence
+□ पहचान प्रमाण
+
+दिनांक: [DATE]
+
+परिवादी का हस्ताक्षर: ___________
+[COMPLAINANT_NAME]
+
+शपथ: मैं घोषणा करता/करती हूँ कि उपरोक्त कथन मेरी जानकारी और विश्वास के अनुसार सत्य है।

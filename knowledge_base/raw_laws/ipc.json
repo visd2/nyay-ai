@@ -1,0 +1,122 @@
+[
+  {
+    "section": "IPC Section 406",
+    "title": "Punishment for Criminal Breach of Trust",
+    "text": "Whoever commits criminal breach of trust shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both. This applies when an employer does not pay salary. Workers can file complaint with Labour Commissioner.",
+    "source": "India Code",
+    "url": "https://www.indiacode.nic.in",
+    "category": "criminal"
+  },
+  {
+    "section": "IPC Section 420",
+    "title": "Cheating and dishonestly inducing delivery of property",
+    "text": "Whoever cheats and thereby dishonestly induces the person deceived to deliver any property to any person shall be punished with imprisonment for a term which may extend to seven years, and shall also be liable to fine. Online fraud, fake products, and financial scams fall under this section.",
+    "source": "India Code",
+    "url": "https://www.indiacode.nic.in",
+    "category": "criminal"
+  },
+  {
+    "section": "IPC Section 498A",
+    "title": "Husband or relative subjecting woman to cruelty",
+    "text": "Whoever, being the husband or the relative of the husband of a woman, subjects such woman to cruelty shall be punished with imprisonment for a term which may extend to three years and shall also be liable to fine. Cruelty includes dowry harassment and domestic violence.",
+    "source": "India Code",
+    "url": "https://www.indiacode.nic.in",
+    "category": "criminal"
+  },
+  {
+    "section": "IPC Section 503",
+    "title": "Criminal Intimidation",
+    "text": "Whoever threatens another with any injury to his person, reputation or property with intent to cause alarm commits criminal intimidation. Threatening messages on WhatsApp, phone calls with threats fall under this section.",
+    "source": "India Code",
+    "url": "https://www.indiacode.nic.in",
+    "category": "criminal"
+  },
+  {
+    "section": "IPC Section 506",
+    "title": "Punishment for Criminal Intimidation",
+    "text": "Whoever commits the offence of criminal intimidation shall be punished with imprisonment for a term which may extend to two years, or with fine, or with both. If threat is to cause death or grievous hurt, imprisonment may extend to seven years.",
+    "source": "India Code",
+    "url": "https://www.indiacode.nic.in",
+    "category": "criminal"
+  },
+  {
+    "section": "IPC Section 354",
+    "title": "Assault or criminal force to woman with intent to outrage her modesty",
+    "text": "Whoever assaults or uses criminal force to any woman intending to outrage her modesty shall be punished with imprisonment not less than one year but which may extend to five years, and shall also be liable to fine. Women can file FIR at nearest police station immediately.",
+    "source": "India Code",
+    "url": "https://www.indiacode.nic.in",
+    "category": "criminal"
+  },
+  {
+    "section": "IPC Section 379",
+    "title": "Punishment for Theft",
+    "text": "Whoever commits theft shall be punished with imprisonment for a term which may extend to three years, or with fine, or with both. Theft means dishonest taking of moveable property out of possession of any person without consent. File FIR at police station immediately.",
+    "source": "India Code",
+    "url": "https://www.indiacode.nic.in",
+    "category": "criminal"
+  },
+  {
+    "section": "Labor Act - Payment of Wages Act 1936 Section 3",
+    "title": "Responsibility for Payment of Wages",
+    "text": "Every employer is responsible for payment of all wages to persons employed. Wages must be paid before expiry of 7th day for establishments with less than 1000 employees. Non-payment of wages is punishable offence. Workers can file complaint with Inspector under Payment of Wages Act or approach Labour Commissioner.",
+    "source": "India Code - Payment of Wages Act",
+    "url": "https://www.indiacode.nic.in",
+    "category": "labor"
+  },
+  {
+    "section": "Consumer Protection Act 2019 Section 35",
+    "title": "Filing Complaint with District Commission",
+    "text": "A consumer complaint can be filed with District Consumer Disputes Redressal Commission for goods or services where value does not exceed Rs 1 Crore. Complaints can be filed online at consumerhelpline.gov.in or physically at District Forum. Consumer can claim refund, compensation, and punitive damages.",
+    "source": "Consumer Protection Act 2019",
+    "url": "https://consumeraffairs.nic.in",
+    "category": "consumer"
+  },
+  {
+    "section": "Constitution of India Article 21",
+    "title": "Protection of Life and Personal Liberty",
+    "text": "No person shall be deprived of his life or personal liberty except according to procedure established by law. Supreme Court has interpreted Article 21 broadly to include right to livelihood, right to health, right to education, right to shelter, and many other fundamental rights.",
+    "source": "Constitution of India",
+    "url": "https://www.indiacode.nic.in",
+    "category": "constitutional"
+  },
+  {
+    "section": "CrPC Section 154",
+    "title": "Information in cognizable cases - FIR",
+    "text": "Every information relating to commission of a cognizable offence given orally to officer in charge of police station shall be reduced to writing. A copy shall be given to the informant free of cost. If police refuses to register FIR, you can approach Superintendent of Police or file private complaint before Magistrate or send complaint by post to SP.",
+    "source": "Code of Criminal Procedure",
+    "url": "https://www.indiacode.nic.in",
+    "category": "procedure"
+  },
+  {
+    "section": "Domestic Violence Act 2005",
+    "title": "Protection of Women from Domestic Violence",
+    "text": "The Protection of Women from Domestic Violence Act 2005 provides protection orders, residence orders, monetary relief, custody orders and compensation orders. Any aggrieved woman can file application before Magistrate. Violation of protection order is cognizable and non-bailable offence punishable with imprisonment up to one year or fine up to Rs 20000 or both.",
+    "source": "Protection of Women from Domestic Violence Act 2005",
+    "url": "https://wcd.nic.in",
+    "category": "family"
+  },
+  {
+    "section": "RTI Act 2005 Section 6",
+    "title": "Right to Information - Filing Application",
+    "text": "A person who desires to obtain any information under RTI Act shall make request in writing to Central Public Information Officer or State Public Information Officer. Application fee is Rs 10. Information shall be provided within 30 days. Information affecting life and liberty must be provided within 48 hours. File RTI online at rtionline.gov.in.",
+    "source": "Right to Information Act 2005",
+    "url": "https://rtionline.gov.in",
+    "category": "administrative"
+  },
+  {
+    "section": "IT Act 2000 Section 66C",
+    "title": "Identity theft online",
+    "text": "Whoever fraudulently makes use of electronic signature, password or any other unique identification feature of any other person shall be punished with imprisonment for a term which may extend to three years and fine up to one lakh rupees. Online fraud, hacking of accounts, OTP fraud falls under this section. Complaint at cybercrime.gov.in.",
+    "source": "IT Act 2000",
+    "url": "https://www.indiacode.nic.in",
+    "category": "cyber"
+  },
+  {
+    "section": "Dowry Prohibition Act 1961 Section 3",
+    "title": "Penalty for giving or taking dowry",
+    "text": "If any person gives, takes or abets giving or taking of dowry, he shall be punishable with imprisonment not less than 5 years and fine not less than fifteen thousand rupees or the amount of value of dowry whichever is more. Dowry demand is a serious criminal offence. File FIR under IPC 498A and Dowry Prohibition Act.",
+    "source": "Dowry Prohibition Act 1961",
+    "url": "https://www.indiacode.nic.in",
+    "category": "family"
+  }
+]
