@@ -11,8 +11,9 @@ TEMPLATES_DIR = Path(__file__).resolve().parent.parent.parent / "knowledge_base"
 
 class RAGEngine:
     async def initialize(self):
+        pass
     """Lazy init — first request pe load hoga."""
-    pass  # No heavy startup
+pass  # No heavy startup
 
 def _ensure_ready(self):
     """Initialize on first use."""
