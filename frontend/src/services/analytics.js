@@ -1,5 +1,5 @@
 // ── Nyay AI Analytics — Device + Location Tracker ─────────
-const API_URL = 'http://localhost:8000'  // production mein change hoga
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000'  // production mein change hoga
 
 export async function trackVisit() {
   try {
