@@ -11,12 +11,17 @@ TEMPLATES_DIR = Path(__file__).resolve().parent.parent.parent / "knowledge_base"
 
 class RAGEngine:
     async def initialize(self):
+    """Lazy init — first request pe load hoga."""
+    pass  # No heavy startup
+
+def _ensure_ready(self):
+    """Initialize on first use."""
+    if not retriever._collection:
         embedder.load()
         retriever.initialize()
-        if retriever.is_empty:
-            print("⚠️  Knowledge base empty. Run: python scripts/embed_and_index.py")
 
     async def answer_legal_question(self, question: str, history: list, language: str = "hi") -> ChatResponse:
+        self._ensure_ready()
         chunks = retriever.retrieve(query=question)
         if not chunks:
             return ChatResponse(
