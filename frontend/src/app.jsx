@@ -2,7 +2,7 @@ import { Routes, Route, Link, useLocation } from 'react-router-dom'
 import { Scale, MessageSquare, FileText, AlertTriangle, Info, Menu, X, ChevronUp, ChevronDown } from 'lucide-react'
 import { useState, useEffect } from 'react'
 import { useLanguage } from './context/LanguageContext.jsx'
-import { trackVisit } from './services/analytics'
+import { trackVisit } from './services/analytics.js'
 
 // ✅ FIXED IMPORTS
 import Home from './pages/Home.jsx'
