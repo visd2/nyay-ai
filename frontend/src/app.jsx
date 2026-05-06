@@ -1,16 +1,16 @@
 import { Routes, Route, Link, useLocation } from 'react-router-dom'
 import { Scale, MessageSquare, FileText, AlertTriangle, Info, Menu, X, ChevronUp, ChevronDown } from 'lucide-react'
 import { useState, useEffect } from 'react'
-import { useLanguage } from './context/LanguageContext'
-import { trackVisit } from './services/analytics'
+import { useLanguage } from './context/LanguageContext.jsx'
+import { trackVisit } from './services/analytics.jsx'
 
 // ✅ FIXED IMPORTS
-import Home from './pages/Home'
-import Chat from './pages/Chat'
-import DraftGenerator from './pages/DraftGenerator'
-import RiskChecker from './pages/RiskChecker'
-import About from './pages/About'
-import AdminDashboard from './pages/AdminDashboard'
+import Home from './pages/Home.jsx'
+import Chat from './pages/Chat.jsx'
+import DraftGenerator from './pages/DraftGenerator.jsx'
+import RiskChecker from './pages/RiskChecker.jsx'
+import About from './pages/About.jsx'
+import AdminDashboard from './pages/AdminDashboard.jsx'
 
 
 function ScrollButtons() {
