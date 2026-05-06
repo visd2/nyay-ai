@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
 import { Toaster } from 'react-hot-toast'
-import { LanguageProvider } from './context/LanguageContext.jsx'
+import { LanguageProvider } from './context/LanguageContext'
 import app from './app'
 import './index.css'
 
