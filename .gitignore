@@ -8,3 +8,4 @@ frontend/dist/
 knowledge_base/vector_store/chroma_db/
 analytics_data/
 *.log
+vercel.json
