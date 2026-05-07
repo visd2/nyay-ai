@@ -10,29 +10,33 @@ TEMPLATES_DIR = Path(__file__).resolve().parent.parent.parent / "knowledge_base"
 
 
 class RAGEngine:
+
+    def _ensure_ready(self):
+        """Lazy init — first request pe load hoga."""
+        if not retriever._collection:
+            embedder.load()
+            retriever.initialize()
+
     async def initialize(self):
         pass
-    """Lazy init — first request pe load hoga."""
-pass  # No heavy startup
 
-def _ensure_ready(self):
-    """Initialize on first use."""
-    if not retriever._collection:
-        embedder.load()
-        retriever.initialize()
-
-    async def answer_legal_question(self, question: str, history: list, language: str = "hi") -> ChatResponse:
+    async def answer_legal_question(
+        self, question: str, history: list, language: str = "hi"
+    ) -> ChatResponse:
         self._ensure_ready()
         chunks = retriever.retrieve(query=question)
+
         if not chunks:
             return ChatResponse(
                 answer="माफ करें, इस सवाल के लिए relevant law section नहीं मिला। NALSA helpline 15100 call करें।",
                 references=[],
-                next_steps=["NALSA helpline 15100 call करें", "Nearest district court Legal Aid Cell से मिलें"],
+                next_steps=["NALSA helpline 15100 call करें"],
                 confidence=0.0,
             )
+
         law_context = self._build_context(chunks)
-        raw_answer = await generate_legal_answer(question, law_context, history, language)
+        raw_answer  = await generate_legal_answer(question, law_context, history, language)
+
         references = [
             LegalReference(
                 section=c["section"],
@@ -43,8 +47,10 @@ def _ensure_ready(self):
             )
             for c in chunks[:3]
         ]
+
         next_steps = self._extract_next_steps(raw_answer)
-        avg_score = sum(c["score"] for c in chunks) / len(chunks)
+        avg_score  = sum(c["score"] for c in chunks) / len(chunks)
+
         return ChatResponse(
             answer=raw_answer,
             references=references,
@@ -52,21 +58,27 @@ def _ensure_ready(self):
             confidence=round(avg_score, 2),
         )
 
-    async def generate_legal_draft(self, draft_type: str, details: dict, language: str = "hi") -> DraftResponse:
+    async def generate_legal_draft(
+        self, draft_type: str, details: dict, language: str = "hi"
+    ) -> DraftResponse:
+        self._ensure_ready()
         template_path = TEMPLATES_DIR / f"{draft_type}.txt"
-        template = template_path.read_text(encoding="utf-8") if template_path.exists() else ""
-        chunks = retriever.retrieve(query=draft_type.replace("_", " "), top_k=3)
+        template      = template_path.read_text(encoding="utf-8") if template_path.exists() else ""
+
+        chunks        = retriever.retrieve(query=draft_type.replace("_", " "), top_k=3)
         relevant_laws = [c["section"] for c in chunks]
-        draft_text = await generate_draft(draft_type, details, template, language)
+        draft_text    = await generate_draft(draft_type, details, template, language)
+
         submission_map = {
-            "complaint_letter": "Superintendent of Police / Police Station",
-            "legal_notice": "Send by Registered Post to respondent",
-            "fir_application": "Nearest Police Station",
-            "consumer_complaint": "District Consumer Disputes Redressal Forum",
-            "salary_complaint": "Labour Commissioner Office",
+            "complaint_letter":     "Superintendent of Police / Police Station",
+            "legal_notice":         "Send by Registered Post to respondent",
+            "fir_application":      "Nearest Police Station",
+            "consumer_complaint":   "District Consumer Disputes Redressal Forum",
+            "salary_complaint":     "Labour Commissioner Office",
             "harassment_complaint": "Police Station + Internal Complaints Committee",
-            "rent_dispute": "Rent Controller / Civil Court",
+            "rent_dispute":         "Rent Controller / Civil Court",
         }
+
         return DraftResponse(
             draft_text=draft_text,
             draft_type=draft_type,
@@ -93,7 +105,10 @@ def _ensure_ready(self):
     def _build_context(self, chunks: list) -> str:
         parts = []
         for i, c in enumerate(chunks, 1):
-            parts.append(f"[{i}] {c['section']} – {c['title']}\nSource: {c['source']}\n{c['text']}")
+            parts.append(
+                f"[{i}] {c['section']} – {c['title']}\n"
+                f"Source: {c['source']}\n{c['text']}"
+            )
         return "\n---\n".join(parts)
 
     def _extract_next_steps(self, answer: str) -> list:
